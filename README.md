@@ -1,7 +1,6 @@
 # User-Specific-Event-Search-and-Recommendation-Engine
 
-Developed a dynamic webpage that aims to improve event search and recommendation using history and preferences.
-- Created Java servlets with ​RESTful APIs to handle HTTP requests and responses including fetching nearby events, liking events, and user login.
-- Built databases (​MySQL​​ and ​MongoDB​​) to manage event data obtained from TicketMaster and user information.
-- Architected and implemented the interactive web frontend workflow utilizing AJAX technology (HTML, CSS and JavaScript).
-- Deployed server side to ​Amazon EC2​​ to handle 150 QPS tested by A​pache JMeter​​.
+-	Developed an interactive web page (HTML, CSS and JavaScript) for users to look up nearby events, add favorite events, purchase tickets and get event recommendations
+-	Used Java servlets with RESTful APIs to handle HTTP requests and responses and MySQL to store business data fetched from Ticketmaster API
+-	Designed content-based recommendation algorithms to implement personized business recommendation based on search history and favorite records
+-	Deployed server side to Amazon EC2 to handle 150 queries per second and performed load test with Apache JMeter 
